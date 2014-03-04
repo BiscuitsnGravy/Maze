@@ -1,0 +1,26 @@
+﻿Build started 9/25/2013 7:41:04 PM.
+     1>Project "C:\Users\Jason\Documents\CptS 223\Programming Assignments\Trost_ProgrammingAssignment4_Maze\Trost_ProgrammingAssignment4_Maze\Trost_ProgrammingAssignment4_Maze.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Trost_ProgrammingAssignment4_Maze.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\maze.h(45): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\disjoint.h(14): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\disjoint.h(114): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\main.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\main.cpp(60): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\disjoint.h(104): warning C4715: 'DisjSets::getDir' : not all control paths return a value
+     1>c:\users\jason\documents\cpts 223\programming assignments\trost_programmingassignment4_maze\trost_programmingassignment4_maze\maze.h(85): warning C4715: 'Maze::getWall' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jason\Documents\CptS 223\Programming Assignments\Trost_ProgrammingAssignment4_Maze\Debug\Trost_ProgrammingAssignment4_Maze.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jason\Documents\CptS 223\Programming Assignments\Trost_ProgrammingAssignment4_Maze\Debug\Trost_ProgrammingAssignment4_Maze.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jason\Documents\CptS 223\Programming Assignments\Trost_ProgrammingAssignment4_Maze\Debug\Trost_ProgrammingAssignment4_Maze.lib" /MACHINE:X86 Debug\functions.obj
+         Debug\main.obj
+         Trost_ProgrammingAssignment4_Maze.vcxproj -> C:\Users\Jason\Documents\CptS 223\Programming Assignments\Trost_ProgrammingAssignment4_Maze\Debug\Trost_ProgrammingAssignment4_Maze.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Trost_ProgrammingAssignment4_Maze.unsuccessfulbuild".
+         Touching "Debug\Trost_ProgrammingAssignment4_Maze.lastbuildstate".
+     1>Done Building Project "C:\Users\Jason\Documents\CptS 223\Programming Assignments\Trost_ProgrammingAssignment4_Maze\Trost_ProgrammingAssignment4_Maze\Trost_ProgrammingAssignment4_Maze.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.40
